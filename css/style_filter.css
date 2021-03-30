@@ -1,0 +1,64 @@
+
+
+.p1:hover, .p2:hover {
+	opacity: .3;
+  cursor: pointer;
+}
+
+
+#portfolio p {
+	color: grey;
+	font-size: 12px;
+	font-weight: 200;
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+
+.single-content{
+	
+	width: 330px;
+	margin-left: 20px;
+}
+
+.single-content img {
+	width: 100%;
+	height: 350px;
+	margin: 10px;
+}
+
+.filters {
+	width: 100%;
+	text-align: center;
+}
+
+.filters ul {
+	list-style: none;
+	padding: 20px 0;
+}
+
+.filters ul li {
+	display: inline;
+	padding: 10px 25px;
+	font-size: 14px;
+	color: #636363;
+	font-weight: 400;
+	cursor: pointer;
+  	text-transform: uppercase;
+  	letter-spacing: .2em;
+}
+
+.filters ul li:hover {
+	color: #a6a6a6;
+}
+
+.filters ul li.activefilter {
+	color: #0ACACD;
+	border: 1px solid #0ACACD;
+	border-radius: 15px;
+}
+

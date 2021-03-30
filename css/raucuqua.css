@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar{
+	width: 100%;
+	background-color: hsla(0,0%,0%,0.00) !important;
+}
+
+.tieude01{
+	text-align: center;
+	color: green;
+	font-family:"pinyon-script";
+	font-style: italic;
+	
+}
+.sizeAboutUs{
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+	height: auto;
+	overflow: hidden;
+}
+.sizeAboutUs img{
+	width: 100%;
+	height: auto;
+}
+
+.infomation{
+	width: 100%;
+	height: 200px;
+	background-color: hsla(52,100%,78%,0.53);
+	position:  absolute;
+	opacity: 0;
+	bottom: -200px;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+.sizeAboutUs:hover .infomation{
+	opacity: 1;
+	bottom: 0px;
+}
+.infomation h3{
+	color:white;
+	padding-left: 150px;
+	font-size: 50px;
+	font-family: "pinyon-script";
+	font-style: italic;
+	text-decoration: underline;
+	text-shadow: 10px 10px 15px black;
+	text-decoration-style:solid;
+	padding-top: 40px;
+}
+
+.mauchu{
+	color: hsla(87,100%,22%,1.00);
+	font-family: "pinyon-script";
+	font-style: italic;
+}
+
+.lkfooter a{
+	color: black;
+	text-decoration:none;
+}
+.lkfooter a:hover{
+	color: green;
+	
+}
+
+.footercontact p:hover{
+	color: orange;
+}
+
+.emailimg img{
+	width: 40px;
+	position: absolute;
+	top: 41px;
+	right: 15px;
+	
+}
+
+.footernews input{
+	width: 100%;
+	height: 40px;
+}
+
+.footernews{
+	position: relative;
+}
+
+.search img{
+	width: 40px;
+	position: absolute;
+	top: 145px;
+	right: 15px;
+}
+
+.social img{
+	width: 40px;
+}
+
+.social{
+	text-align: center;
+}
+
+
+.bannerproduct img{
+	width: 100%;
+	
+}
+
+.bannerproduct{
+	
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.single-content{
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+	height: auto;
+	overflow: hidden;}
+
+.single-content:hover .infomation{
+	opacity: 1;
+	bottom: 0px;
+}
+
+
+.infomation h4{
+	color:white;
+	padding-left: 150px;
+	font-size: 30px;
+	font-family: "pinyon-script";
+	font-style: italic;
+	text-decoration: underline;
+	text-shadow: 10px 10px 15px black;
+	text-decoration-style:solid;
+	padding-top: 40px;
+}
+
+.banneraboutus img{
+	width: 100%;
+}
+
+.banneraboutus{
+	
+	padding-left: 0px!important;
+	padding-right: 0px !important;
+	
+}
+
+@media (max-width: 1200px) {
+	.bannerproduct img{
+		width: 100%;
+	}
+}
+@media (max-width: 992px) {
+  .bannerproduct img{
+		width: 100%;
+	}
+}
+@media (max-width: 767px) {
+  .bannerproduct img{
+		width: 100%;
+	}
+	
+}
+
+.lkfooter {
+	padding-left: 30px;
+}
